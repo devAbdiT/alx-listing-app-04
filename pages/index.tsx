@@ -76,7 +76,7 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
-import PropertyCard from "@/components/PropertyCard"; // Assume this component exists
+import PropertyCard from "@/components/property/PropertyCard"; // Assume this component exists
 
 export default function Home() {
   const [properties, setProperties] = useState([]);
