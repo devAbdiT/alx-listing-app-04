@@ -1,6 +1,6 @@
 import { PropertyProps } from "@/interfaces";
 
-export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
+export const PROPERTYLISTINGSAMPLE: Omit<PropertyProps, "id">[] = [
   {
     name: "Villa Ocean Breeze",
     address: {
